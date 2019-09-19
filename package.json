@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-image",
+  "name": "gatsby-image-lazy-offset",
   "description": "Lazy-loading React image component with optional support for the blur-up effect.",
   "version": "2.2.19",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
@@ -28,8 +28,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby.git",
-    "directory": "packages/gatsby-image"
+    "url": "https://github.com/pixelpoint/gatsby-image-lazy-offset.git"
   },
   "scripts": {
     "build": "babel src --out-dir . --ignore **/__tests__",

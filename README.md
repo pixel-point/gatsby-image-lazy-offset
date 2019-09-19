@@ -432,6 +432,7 @@ While you could achieve a similar effect with plain CSS media queries, `gatsby-i
 | `fluidImages`          | `array`             | An array of objects returned from `fluid` queries. When combined with `media` keys, allows for art directing `fluid` images.                  |
 | `draggable`            | `bool`              | Set the img tag draggable to either `false`, `true`                                                                                           |
 | `itemProp`             | `string`            | Add an [`itemprop` schema.org structured data attribute](https://schema.org/docs/gs.html#microdata_itemprop) on the image.                    |
+| `lazyOffset`           | `string`            | An offset for lazy-loading. The same as `IntersectionObserver.rootMargin`, Defaults to `200px`.                                               |
 
 ## Image processing arguments
 
